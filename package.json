@@ -1,0 +1,49 @@
+{
+  "name": "codingtsa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@expo-google-fonts/playfair-display": "^0.2.3",
+    "@expo/vector-icons": "^14.0.0",
+    "@gorhom/bottom-sheet": "^4.6.1",
+    "@react-native-community/cli-server-api": "^13.6.3",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "@react-navigation/stack": "^6.3.29",
+    "@types/react": "~18.2.45",
+    "expo": "~50.0.14",
+    "expo-constants": "~15.4.5",
+    "expo-font": "~11.10.3",
+    "expo-linear-gradient": "~12.7.2",
+    "expo-linking": "~6.2.2",
+    "expo-router": "~3.4.8",
+    "expo-status-bar": "~1.11.1",
+    "install": "^0.13.0",
+    "metro": "^0.80.7",
+    "npm": "^10.5.0",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-reanimated": "~3.6.2",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-navigation": "^5.0.0",
+    "save-dev": "^0.0.1-security",
+    "typescript": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

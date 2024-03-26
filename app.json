@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "codingTSA",
+    "slug": "codingTSA",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
+  }
+}
